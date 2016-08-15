@@ -1,0 +1,1 @@
+window.onload=function(){var e=prompt("pls give me your name");null!=e?document.getElementById("yourNames").innerHTML="Hi "+e:alert("your neame")};
