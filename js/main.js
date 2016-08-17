@@ -1,27 +1,28 @@
 window.onload = function()
 {
 
-  function inArray (arrayToCheck, value){
-    for (i = 0; i < arrayToCheck.length;i++){
-      if(arrayToCheck[i] === value){
-        return true;
-      }
-    }
-    return false
-  }
-   var randArray = [3,1,5,6,4,3,7,6,4,3,65];
-   document.write(inArray(randArray,6));
-
-   function times2(x){
-     return x*2
-   }
-   document.write("<br>" + times2(26))
-
-   function multiply(r,z) {
-     return r * z
-   }
-
-   document.write("<br>" + multiply(2,3))
+  //
+  // function inArray (arrayToCheck, value){
+  //   for (i = 0; i < arrayToCheck.length;i++){
+  //     if(arrayToCheck[i] === value){
+  //       return true;
+  //     }
+  //   }
+  //   return false
+  // }
+  //  var randArray = [3,1,5,6,4,3,7,6,4,3,65];
+  //  document.write(inArray(randArray,6));
+  //
+  //  function times2(x){
+  //    return x*2
+  //  }
+  //  document.write("<br>" + times2(26))
+  //
+  //  function multiply(r,z) {
+  //    return r * z
+  //  }
+  //
+  //  document.write("<br>" + multiply(2,3))
   // var yourName = prompt("pls give me your name");
   //   if (yourName != null){
   //     document.getElementById("yourNames").innerHTML = "Hi" + " " + yourName;

@@ -1,1 +1,1 @@
-window.onload=function(){function n(n,r){for(i=0;i<n.length;i++)if(n[i]===r)return!0;return!1}function r(n){return 2*n}function t(n,r){return n*r}var e=[3,1,5,6,4,3,7,6,4,3,65];document.write(n(e,6)),document.write("<br>"+r(26)),document.write("<br>"+t(2,3))};
+window.onload=function(){};
